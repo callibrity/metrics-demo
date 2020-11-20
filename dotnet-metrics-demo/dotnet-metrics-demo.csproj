@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>dotnet_metrics_demo</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="App.Metrics.AspNetCore.Mvc" Version="4.1.0" />
+    <PackageReference Include="App.Metrics.Prometheus" Version="4.1.0" />
+  </ItemGroup>
+
+
+</Project>
