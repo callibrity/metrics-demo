@@ -14,7 +14,7 @@
   - Run `./mvnw spring-boot:build-image` in the `java-metrics-demo` folder
 
 #### 3. Spin up everything
-  - Run `docker-compose --build`
+  - Run `docker-compose up --build`
 
 #### 4. Start up Locust
   - Run `locust` in the root directory
